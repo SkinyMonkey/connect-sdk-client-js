@@ -9,23 +9,6 @@ var gulp = require('gulp')
 	, fs = require("fs")
 
 	, fullSdkSrc = [
-		"node_modules/node-forge/js/util.js",
-		"node_modules/node-forge/js/cipher.js",
-		"node_modules/node-forge/js/cipherModes.js",
-		"node_modules/node-forge/js/aes.js",
-		"node_modules/node-forge/js/oids.js",
-		"node_modules/node-forge/js/asn1.js",
-		"node_modules/node-forge/js/sha1.js",
-		"node_modules/node-forge/js/sha256.js",
-		"node_modules/node-forge/js/sha512.js",
-		"node_modules/node-forge/js/md.js",
-		"node_modules/node-forge/js/hmac.js",
-		"node_modules/node-forge/js/prng.js",
-		"node_modules/node-forge/js/random.js",
-		"node_modules/node-forge/js/jsbn.js",
-		"node_modules/node-forge/js/pkcs1.js",
-		"node_modules/node-forge/js/rsa.js",
-		"node_modules/node-forge/js/forge.js",
 		"src/core.js",
 		"src/promise.js",
 		"src/net.js",
